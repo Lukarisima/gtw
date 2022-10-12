@@ -1,5 +1,7 @@
 from inc_noesis import *
 
+import noesis
+
 def registerNoesisTypes():
     handle = noesis.register("Bully: Anniversary Edition [Android|iOS]", ".tex")
     noesis.setHandlerTypeCheck(handle, noepyCheckType)
